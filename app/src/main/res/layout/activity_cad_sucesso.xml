@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundocadsucesso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E55F56"
+    tools:context=".CadSucessoActivity">
+
+    <TextView
+        android:id="@+id/titulosucess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="179dp"
+        android:text="Cadastro Realizado"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sucessdois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="159dp"
+        android:text="Com Sucesso !"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulosucess" />
+
+    <Button
+        android:id="@+id/btncadsucess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="358dp"
+        android:backgroundTint="#2271B3"
+        android:text="Voltar ao início"
+        android:textStyle="bold"
+        android:onClick="irParaInicial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sucessdois" />
+</androidx.constraintlayout.widget.ConstraintLayout>

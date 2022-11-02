@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E55F56"
+    tools:context=".TopicosActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logoapp"
+        android:layout_width="125dp"
+        android:layout_height="92dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="#000000"
+        app:civ_border_width="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/retangulo" />
+
+    <Button
+        android:id="@+id/btnsupermercados"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:foregroundTint="#2271B3"
+        android:onClick="irParaSupermercados"
+        android:text="Supermercados"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+
+    <Button
+        android:id="@+id/btnrestaurantes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:onClick="irParaRestaurantes"
+        android:text="Restaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsupermercados" />
+
+    <Button
+        android:id="@+id/btnsaude"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:onClick="irParaSaude"
+        android:text="Saúde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnrestaurantes" />
+
+    <Button
+        android:id="@+id/btncombustiveis"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="irParaCombustiveis"
+        android:text="Combustíveis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsaude" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

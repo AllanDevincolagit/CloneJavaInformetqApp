@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E55F56"
+    tools:context=".InicialActivity2">
+
+    <TextView
+        android:id="@+id/rodapeinicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="sans-serif-black"
+        android:text="InformeTq e região 2022 por Allan e Julia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logoapp"
+        android:layout_width="158dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="#000000"
+        app:civ_border_width="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/tituloinicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="489dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Navegue entre as cidades para encontrar o estabelecimento desejado"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoapp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/botaotaquaritingaini"
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="357dp"
+        android:contentDescription="Botão leva a página de taquaritinga"
+        android:hint="t.q 5"
+        android:onClick="irParaTopicos"
+        android:clickable="true"
+
+        android:src="@drawable/taquaritinga"
+        android:text="Taquaritinga"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botaojaboticabalni"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloinicial"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/taquaritinga" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/botaoararaquarani"
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão leva a página de araraquara"
+        android:hint="t.q 5"
+        android:onClick="irParaTopicos"
+        android:layout_marginEnd="160dp"
+        android:clickable="true"
+        android:src="@drawable/araraquara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloinicial"
+        app:layout_constraintVertical_bias="0.335"
+        app:srcCompat="@drawable/araraquara" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/botaojaboticabalni"
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+
+        android:contentDescription="Botão leva a página de jaboticabal"
+        android:hint="j.b "
+        android:onClick="irParaTopicos"
+        android:clickable="true"
+        android:src="@drawable/jaboticabal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloinicial"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/jaboticabal" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/botaomataoni"
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão leva a página de Matão"
+        android:hint="m.t "
+        android:onClick="irParaTopicos"
+
+        android:clickable="true"
+        android:src="@drawable/matao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloinicial"
+        app:layout_constraintVertical_bias="0.335"
+        app:srcCompat="@drawable/matao" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/botaomontealtoni"
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão leva a página de monte alto"
+        android:hint="m.a"
+        android:onClick="irParaTopicos"
+        android:clickable="true"
+        android:src="@drawable/montealto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloinicial"
+        app:layout_constraintVertical_bias="0.67"
+        app:srcCompat="@drawable/montealto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "996189604155",
+    "project_id": "informetqapp",
+    "storage_bucket": "informetqapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996189604155:android:b69d4d784aaf001b9acf1e",
+        "android_client_info": {
+          "package_name": "me.fatec.cloneinformetqjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996189604155-42g24qgk9au8imsu6kdqitqo0905lmff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.fatec.cloneinformetqjava",
+            "certificate_hash": "e76fdfb61ec760c974521523f6476d9068a46087"
+          }
+        },
+        {
+          "client_id": "996189604155-m0l24b9e6l5ipet3hc42dej6b997kse3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUs10ZFYnokIAXW0ki9t8nrxPxYuY5-CQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996189604155-m0l24b9e6l5ipet3hc42dej6b997kse3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/drawable/container_user.xml" value="0.1" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_cad_sucesso.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_carvalho_tq.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_inicial.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_meu_perfil.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_santa_casa.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_sub_inicial.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/CloneJavaInformetqApp-main/app/src/main/res/layout/activity_supermercados.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/drawable/botaoredondo.xml" value="0.1" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/drawable/circulo.xml" value="0.1" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/drawable/retangulo.xml" value="0.1" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout-pt-rBR/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.14" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout-w936dp/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_cad_sucesso.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_cadastro.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_carvalho_tq.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_combustiveis.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_compre_facil.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_inicial.xml" value="0.16" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_inter_clinicas.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_ipiranga.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_kimura.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_mapa_carvalhoa_tqactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_rally.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_restaurantes.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_santa_casa.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_saude.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_sub_inicial.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_supermercados.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/activity_topicos.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/layout/content_scrolling.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/cloneInformeTqJava/app/src/main/res/menu/menu_tipos_estabelecimentos.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

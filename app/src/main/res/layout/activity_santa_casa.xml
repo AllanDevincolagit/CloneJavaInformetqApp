@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SantaCasaActivity">
+
+    <ImageView
+        android:id="@+id/fundocarvalho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/bannerprontocarvalho"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fundopng" />
+
+    <ImageView
+        android:id="@+id/bannerprontocarvalho"
+        android:layout_width="397dp"
+        android:layout_height="285dp"
+        android:layout_marginBottom="118dp"
+        android:background="#F7F7F7"
+        app:layout_constraintBottom_toTopOf="@+id/btnmapcarvalojaum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/retangulo"
+        tools:srcCompat="@drawable/santacasa" />
+
+    <Button
+        android:id="@+id/btnmapcarvalojaum"
+        android:contentDescription="Botão leva a página de jaboticabal"
+        android:hint="j.b "
+        android:onClick="irParaMapaSantaCasa"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="110dp"
+        android:background="#2271B3"
+        android:backgroundTint="#2271B3"
+        android:text="Ver no Mapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerprontocarvalho" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="262dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Santa Casa Taquaritinga"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bannerprontocarvalho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
